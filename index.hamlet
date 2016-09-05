@@ -1,0 +1,26 @@
+!!!
+<div .login>
+  <form onsubmit="ajaxlogin(); return false;">
+    <h1>
+      Login
+    <input type="text" #username placeholder="Username" required="required">
+    <input type="password" #password placeholder="Password" required="required">
+    <button type="submit" .btn .btn-primary .btn-block .btn-large>
+      Let me in.
+<div .app style="display:none">
+  <div #wrapper>
+    $#  Sidebar 
+    <div #sidebar-wrapper>
+      <div .container>
+        <div .row>
+          <div .col-sm-12>
+            <form #csvform onsubmit="return false;" enctype="multipart/form-data">
+              <input #csvfile type="file" title="Select a file" data-filename-placement="inside" .btn .btn-primary>
+    $#  /#sidebar-wrapper 
+    $#  Page Content 
+    <div #page-content-wrapper>
+      <h1>
+        You are logged in!
+    $#  /#page-content-wrapper 
+  $#  /#wrapper 
+$#  /.app 
