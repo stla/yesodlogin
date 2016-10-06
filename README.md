@@ -1,2 +1,2 @@
 # yesodlogin
-Login with Yesod
+Simple login with Yesod, by hiding/displaying
